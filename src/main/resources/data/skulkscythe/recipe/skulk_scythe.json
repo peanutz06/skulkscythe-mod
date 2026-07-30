@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " EE",
+    " AS",
+    "S  "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "A": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "id": "skulkscythe:skulk_scythe",
+    "count": 1
+  }
+}

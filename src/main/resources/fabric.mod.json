@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "skulkscythe",
+  "version": "${version}",
+  "name": "Skulk Scythe",
+  "description": "Adds the Skulk Scythe: a massive skulk-covered scythe that fires a Warden-style sonic boom and lets you dash for free.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/skulkscythe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.skulkscythe.mod.SkulkScytheMod"],
+    "client": ["com.skulkscythe.mod.SkulkScytheModClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
